@@ -1,4 +1,8 @@
 /*--------- HEADER ---------*/
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
 header {
   display: block;
 }
@@ -44,3 +48,44 @@ header {
   color: black;
   font-size: 105%;
 }
+
+/*--------- MAIN PAGE ---------*/
+
+.main-page-img {
+  background-image: url(img/hero.png);
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
+
+.main-text {
+  width: 60%;
+  padding-top: 15%;
+  text-align: center;
+}
+
+.header-text img {
+  width: 6%;
+  padding-bottom: 1%;
+}
+
+.header-text p {
+  color: white;
+  font-weight: 300;
+  font-size: 125%;
+}
+
+h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 300%;
+  padding-top: 2%;
+}
+
+h2 {
+  color: white;
+  font-size: 120%;
+  font-weight: 300;
+}
+
+/*--------- OUR SERVICES ---------*/
