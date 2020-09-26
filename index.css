@@ -1,6 +1,6 @@
 /*--------- HEADER ---------*/
 body {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Segoe UI";
 }
 
 header {
@@ -72,14 +72,14 @@ header {
 .header-text p {
   color: white;
   font-weight: 300;
-  font-size: 125%;
+  font-size: 110%;
 }
 
 h1 {
   color: white;
   font-weight: 300;
   font-size: 300%;
-  padding-top: 2%;
+  line-height: 90%;
 }
 
 h2 {
@@ -89,3 +89,35 @@ h2 {
 }
 
 /*--------- OUR SERVICES ---------*/
+
+.top-text {
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+h3 {
+  font-size: 220%;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding-bottom: 2%;
+}
+
+h4 {
+  font-size: 130%;
+  font-weight: 300;
+  margin: 3% 0;
+}
+
+.icon-text-div {
+  margin-top: 2%;
+  transition: all 0.3s;
+}
+
+.icon-text-div:hover {
+  background-color: rgba(255, 255, 255, 0.685);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.icon-text-div img {
+  width: 15%;
+}
