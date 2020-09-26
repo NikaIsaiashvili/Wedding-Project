@@ -1,6 +1,7 @@
 /*--------- HEADER ---------*/
+
 body {
-  font-family: "Segoe UI";
+  font-family: "Cormorant Garamond", serif;
 }
 
 header {
@@ -20,7 +21,7 @@ header {
 
 .main-nav a {
   color: black;
-  font-weight: 300;
+  font-weight: 400;
   border-bottom: 1px solid transparent;
   padding-bottom: 10px;
   transition: all 0.3s;
@@ -72,7 +73,7 @@ header {
 .header-text p {
   color: white;
   font-weight: 300;
-  font-size: 110%;
+  font-size: 130%;
 }
 
 h1 {
@@ -120,4 +121,55 @@ h4 {
 
 .icon-text-div img {
   width: 15%;
+}
+
+/*--------- WEDDING FEATURE ---------*/
+
+.wedding-nav ul {
+  list-style: none;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.wedding-nav li {
+  display: inline-block;
+  margin-left: 2%;
+  cursor: pointer;
+  font-size: 110%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s;
+}
+
+.wedding-nav li:hover {
+  border-bottom: 1px solid;
+  border-radius: 50%;
+}
+
+.features-img img {
+  width: 100%;
+  padding: 1.4% 0;
+}
+
+.mini-container {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.mini-container .col {
+  padding: 0;
+  margin: 0 0.8%;
+}
+
+.feature-btn {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.feature-btn a {
+  padding: 0.7% 2.5%;
+  background-color: rgb(93, 143, 118);
+  color: white;
+  letter-spacing: 2px;
+  font-size: 95%;
 }
