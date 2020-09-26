@@ -1,0 +1,46 @@
+/*--------- HEADER ---------*/
+header {
+  display: block;
+}
+
+.nav-img {
+  width: 20%;
+  float: left;
+  padding-left: 3%;
+}
+
+.main-nav {
+  width: 60%;
+  float: left;
+}
+
+.main-nav a {
+  color: black;
+  font-weight: 300;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+}
+
+.main-nav a:hover,
+.main-nav a:active {
+  border-bottom: 1px solid black;
+  border-radius: 50%;
+}
+
+.nav-icons li,
+.main-nav li {
+  display: inline-block;
+  padding-right: 4%;
+}
+
+.nav-icons {
+  width: 20%;
+  float: left;
+  padding-right: 3%;
+}
+
+.nav-icon {
+  color: black;
+  font-size: 105%;
+}
