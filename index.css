@@ -1,4 +1,7 @@
 /*--------- HEADER ---------*/
+*:focus {
+  outline: none;
+}
 
 body {
   font-family: "Cormorant Garamond", serif;
@@ -168,8 +171,116 @@ h4 {
 
 .feature-btn a {
   padding: 0.7% 2.5%;
-  background-color: rgb(93, 143, 118);
+  background: #a3a698;
   color: white;
   letter-spacing: 2px;
   font-size: 95%;
+}
+
+/*--------- WEDDING FEATURE ---------*/
+
+.request-background {
+  background-image: url(img/counter-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.number-list img {
+  margin-top: 70px;
+}
+
+.number-list p {
+  line-height: 110%;
+  letter-spacing: 3px;
+}
+
+.numbers {
+  color: black;
+}
+
+h5 {
+  margin-bottom: 2%;
+  color: white;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+
+.request-text {
+  margin-top: 10%;
+  padding: 60px 0 30px 0;
+  background-color: #767b67;
+  width: 36%;
+  margin-left: 32%;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+}
+
+.request-text::after {
+  position: absolute;
+  background: url(/img/icon/arrow.png);
+  content: "";
+  bottom: -24px;
+  left: 0;
+  right: 0;
+  height: 25px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.request-big-text {
+  font-size: 250%;
+  padding-bottom: 5%;
+}
+
+.request-form {
+  width: 36%;
+  margin-left: 32%;
+  background-color: white;
+  box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.192);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+select[name="Services"],
+select[name="Guest"],
+input[type="text"],
+input[type="email"] {
+  width: 42%;
+  padding: 13px 0 13px 8px;
+  margin-top: 30px;
+  border: 1px solid rgba(128, 128, 128, 0.288);
+}
+
+select[name="Services"],
+input[type="text"] {
+  margin-right: 5%;
+}
+
+select[name="Services"],
+select[name="Guest"] {
+  margin-top: 0;
+}
+
+textarea {
+  border: 1px solid rgba(128, 128, 128, 0.288);
+  width: 90%;
+  height: 100px;
+  padding: 13px 0 13px 8px;
+  resize: none;
+}
+
+.request-btn {
+  padding: 4% 0;
+}
+
+button[type="submit"] {
+  border: 1px solid rgba(128, 128, 128, 0.288);
+  padding: 2% 2.5%;
+  background: #a3a698;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 95%;
+  cursor: pointer;
 }
