@@ -219,7 +219,7 @@ h5 {
 
 .request-text::after {
   position: absolute;
-  background: url(/img/icon/arrow.png);
+  background: url(img/icon/arrow.png);
   content: "";
   bottom: -24px;
   left: 0;
