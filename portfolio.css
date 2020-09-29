@@ -1,0 +1,57 @@
+/*------IMAGE SECTION------*/
+
+.images-nav ul {
+  list-style: none;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.images-nav li {
+  display: inline-block;
+  margin-left: 2%;
+  cursor: pointer;
+  font-size: 110%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s;
+}
+
+.images-nav li:hover {
+  border-bottom: 1px solid;
+  border-radius: 50%;
+}
+
+.section-images .container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.portfolio-images .col {
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio-images .col-1of2 {
+  margin-right: 20px;
+}
+
+.center-image {
+  background-position: center;
+  background-size: cover;
+}
+
+.image-b {
+  height: 850px;
+}
+
+.image-m {
+  height: 530px;
+}
+
+.image-s {
+  height: 300px;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
