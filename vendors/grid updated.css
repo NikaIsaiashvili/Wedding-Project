@@ -5,27 +5,28 @@
 @import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap);
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 *:focus {
-    outline: none;
+  outline: none;
 }
 
-html,body {
-    color: #000;
-    background-color: #fff;
-    font-size: 16px;
-    font-family: 'Lato', sans-serif , Arial;
-    font-weight: 300;
-    line-height: 145%;
-    text-rendering: optimizeLegibility;
+html,
+body {
+  color: #000;
+  background-color: #fff;
+  font-size: 16px;
+  font-family: "Lato", sans-serif, Arial;
+  font-weight: 300;
+  line-height: 145%;
+  text-rendering: optimizeLegibility;
 }
 
 section {
-    padding: 80px 0;
+  padding: 80px 0;
 }
 
 /* ------------------------------- */
@@ -33,7 +34,7 @@ section {
 /* ------------------------------- */
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* ------------------------------- */
@@ -43,64 +44,64 @@ a {
 /* ------------------------------- */
 
 h1 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 h2 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 h3 {
-    font-size: 1.375rem;
+  font-size: 1.375rem;
 }
 
 h4 {
-    font-size: 1.125rem;
+  font-size: 1.125rem;
 }
 
 h5 {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 h6 {
-    font-size: 0.875rem;
+  font-size: 0.875rem;
 }
 
 p {
-    font-size: 1.125rem;
-    line-height: 145%;
+  font-size: 1.125rem;
+  line-height: 145%;
 }
 
 .light-text {
-    font-weight: 200;
+  font-weight: 200;
 }
 
 .normal-text {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .heavy-text {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .italic {
-    font-style: italic;
+  font-style: italic;
 }
 
 .left-text {
-    text-align: left;
+  text-align: left;
 }
 
 .center-text {
-    text-align: center;
+  text-align: center;
 }
 
 .right-text {
-    text-align: right;
+  text-align: right;
 }
 
 .justify {
-    text-align: justify;
+  text-align: justify;
 }
 
 /* ------------------------------- */
@@ -108,44 +109,44 @@ p {
 /* ------------------------------- */
 
 .row {
-    width: 100%;
-    padding: 1% 0;
+  width: 100%;
+  padding: 1% 0;
 }
 
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .container {
-    width: 90%;
-    margin: 1% auto;
+  width: 90%;
+  margin: 0 5%;
 }
 
 .container:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .col {
-    padding: 1%;
-    margin: 0 1%;
-    float: left;
+  padding: 1%;
+  margin: 0 1%;
+  float: left;
 }
 
 /* 1 COLUMN  */
 
-.col-1of1{
-    width: 98%;
+.col-1of1 {
+  width: 98%;
 }
 
 /* 2 COLUMNS */
 
 .col-1of2,
 .col-2of2 {
-    width: 48%;
+  width: 48%;
 }
 
 /* 3 COLUMNS */
@@ -153,7 +154,7 @@ p {
 .col-1of3,
 .col-2of3,
 .col-3of3 {
-    width: 31.33%;
+  width: 31.33%;
 }
 
 /* 4 COLUMNS */
@@ -162,7 +163,7 @@ p {
 .col-2of4,
 .col-3of4,
 .col-4of4 {
-    width: 23%;
+  width: 23%;
 }
 
 /* 5 COLUMNS */
@@ -172,7 +173,7 @@ p {
 .col-3of5,
 .col-4of5,
 .col-5of5 {
-    width: 18%;
+  width: 18%;
 }
 
 /* 6 COLUMNS */
@@ -183,7 +184,7 @@ p {
 .col-4of6,
 .col-5of6,
 .col-6of6 {
-    width: 14.66%;
+  width: 14.66%;
 }
 
 /* 7 COLUMNS */
@@ -195,7 +196,7 @@ p {
 .col-5of7,
 .col-6of7,
 .col-7of7 {
-    width: 12.28%;
+  width: 12.28%;
 }
 
 /* 8 COLUMNS */
@@ -208,7 +209,7 @@ p {
 .col-6of8,
 .col-7of8,
 .col-8of8 {
-    width: 10.50%;
+  width: 10.5%;
 }
 
 /* 9 COLUMNS */
@@ -222,7 +223,7 @@ p {
 .col-7of9,
 .col-8of9,
 .col-9of9 {
-    width: 9.11%;
+  width: 9.11%;
 }
 
 /* 10 COLUMNS */
@@ -237,7 +238,7 @@ p {
 .col-8of10,
 .col-9of10,
 .col-10of10 {
-    width: 8%;
+  width: 8%;
 }
 
 /* 11 COLUMNS */
@@ -253,7 +254,7 @@ p {
 .col-9of11,
 .col-10of11,
 .col-11of11 {
-    width: 7.09%;
+  width: 7.09%;
 }
 
 /* 12 COLUMNS */
@@ -270,7 +271,7 @@ p {
 .col-10of12,
 .col-11of12,
 .col-12of12 {
-    width: 6.33%;
+  width: 6.33%;
 }
 
 /* ------------------------------- */
@@ -278,10 +279,10 @@ p {
 /* ------------------------------- */
 
 input {
-    width: 100%;
-    padding: 5px;
+  width: 100%;
+  padding: 5px;
 }
 
 ::placeholder {
-    font-style: italic;
+  font-style: italic;
 }
