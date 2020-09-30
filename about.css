@@ -1,0 +1,156 @@
+/*--------- DROPDOWN PAGES ---------*/
+.dropdown {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: black;
+  font-weight: 400;
+  border: none !important;
+  padding-bottom: 10px;
+}
+
+.dropdown-pages a {
+  border: none;
+}
+
+.dropdown-pages a:hover {
+  border: none;
+}
+
+.dropdown-pages {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-hover-div {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-hover-div a {
+  color: white;
+  text-align: left;
+  padding: 3%;
+  display: block;
+  background-color: black;
+}
+
+.dropdown-pages:hover .dropdown-hover-div {
+  display: block;
+}
+
+/*--------- WEDDING WENDORS ---------*/
+.wedding-wendors-box {
+  width: 70%;
+  margin: 0 15%;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #66666663;
+}
+
+.wedding-wendors-first-box {
+  width: 50%;
+}
+
+.wedding-wendors-first-box h2 {
+  width: 80%;
+  line-height: 140%;
+  padding-bottom: 40px;
+  font-size: 180%;
+}
+
+.wedding-wendors-first-box p {
+  padding-bottom: 20px;
+  width: 80%;
+  color: #666666;
+  font-size: 15px;
+}
+
+.wedding-wendors-first-box img {
+  margin-top: 20px;
+}
+
+.wedding-wendors-second-box img {
+  float: right;
+  padding-right: 0;
+}
+
+/*--------- OUR CLIENTS ---------*/
+
+.our-clients {
+  background-color: #66666617;
+}
+
+.numbers {
+  padding: 20px 0;
+}
+
+.top-head-three-text {
+  padding-bottom: 30px;
+}
+
+.client-first-box p {
+  background-color: white;
+  font-size: 22px;
+  padding: 5% 10%;
+  border-radius: 10px;
+}
+
+.first-box-image {
+  margin-top: 40px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.first-box-author-name {
+  margin-left: 20px;
+}
+
+.first-box-author-name h5 {
+  font-size: 90%;
+  color: black;
+  letter-spacing: 2px;
+  padding: 0 0 10px 0;
+  margin: 0;
+}
+
+.first-box-author-name span {
+  margin-right: -4px;
+}
+
+.icon-star {
+  color: orange;
+}
+
+/*--------- OUR TEAM ---------*/
+
+.team-first-box h5 {
+  font-size: 110%;
+  color: black;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 20px 0 5px 0;
+}
+
+.team-first-box p {
+  font-size: 130%;
+  letter-spacing: 1px;
+  color: #666666;
+}
+
+.team-first-box li {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.team-first-box li a {
+  margin: 0 10px;
+  color: black;
+}
