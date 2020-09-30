@@ -1,0 +1,35 @@
+/*--------- PHOTOGRAPHY TEAM ---------*/
+
+.join-us {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+
+.join-us-text {
+  text-align: center;
+}
+
+.join-us-text h2 {
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.join-us-background {
+  position: relative;
+  width: 80%;
+  margin: 2% auto 5% auto;
+  height: 531px;
+  background-image: url(img/team/callto-bg.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.view-more-btn {
+  margin-top: 30px;
+}
+
+#view-more-button {
+  padding: 3% 6%;
+}
