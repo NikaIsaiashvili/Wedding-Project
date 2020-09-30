@@ -1,5 +1,10 @@
 /*--------- PHOTOGRAPHY TEAM ---------*/
 
+.head-text {
+  line-height: 140%;
+  font-size: 300%;
+}
+
 .join-us {
   position: absolute;
   top: 50%;
