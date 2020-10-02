@@ -1,0 +1,303 @@
+/*--------- MAIN PAGE LEFT SIDE---------*/
+
+.common-container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.big-container {
+  width: 65%;
+  margin: auto;
+  float: left;
+}
+
+.blog-main-page-left-div-mini-container {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.blog-main-page-right-div-mini-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.big-container img {
+  width: 100%;
+}
+
+.under-image-p {
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: start;
+}
+
+.small-container {
+  width: 35%;
+  margin: auto;
+  float: left;
+}
+
+.our-blog-head-two-text {
+  width: 80%;
+  margin: auto;
+  font-size: 220%;
+  line-height: 140%;
+  color: black;
+}
+
+.left-side-audrey-hepburn-quote {
+  text-align: start;
+  background-color: #66666617;
+  padding: 5%;
+}
+
+.audrey-hepburn-head-three-text {
+  font-size: 130%;
+  line-height: 190%;
+  color: #767b67;
+}
+
+.audrey-hepburn-head-fourth-text {
+  font-size: 110%;
+  position: relative;
+}
+
+.claw-span {
+  position: absolute;
+  left: 55%;
+  font-size: 150px;
+  color: #767b67;
+}
+
+.text-and-images {
+  text-align: start;
+  margin-top: 40px;
+}
+
+.text-and-images-second-image img,
+.text-and-images-first-image img,
+.text-and-images-image img {
+  width: calc(33.33% - 7px);
+  float: left;
+}
+
+.text-and-images-second-image img,
+.text-and-images-first-image img {
+  margin-right: 10px;
+}
+
+.text-and-images p {
+  padding: 0 0 40px 0;
+}
+
+.price-tag-share .col {
+  padding: 0;
+  margin: 0;
+}
+
+.price-tag {
+  padding-top: 50px !important;
+  float: left;
+  width: 60%;
+}
+
+.share-icon,
+.tag-icon {
+  color: #767b67;
+  padding-right: 1%;
+  margin-bottom: -3px;
+}
+
+.tag-title {
+  font-size: 100%;
+  letter-spacing: 1px;
+  padding-right: 10px;
+}
+
+.price-tag a {
+  margin-right: 15px;
+  padding: 5px 10px;
+  background-color: #66666617;
+  color: black;
+  border-radius: 5px;
+}
+
+.share-tag {
+  width: 40%;
+  padding-top: 50px !important;
+  text-align: end;
+}
+
+.icon-small {
+  margin-bottom: -3px;
+}
+
+.share-tag a {
+  color: black;
+  padding: 10px 10px;
+  background-color: #66666617;
+  border-radius: 50%;
+}
+
+.border-top {
+  width: 100%;
+  padding: 0 0 50px 0;
+  border-bottom: 1px solid #6666665d;
+}
+
+.recent-posts {
+  margin-top: 20px;
+}
+
+.left-arrow {
+  float: left;
+}
+
+.right-arrow {
+  float: right;
+}
+
+.left-arrow a,
+.right-arrow a {
+  color: black;
+}
+
+.icon-small {
+  cursor: pointer;
+}
+
+.recent-post-text-images {
+  margin-top: 40px;
+}
+
+.recent-post-image img {
+  padding-bottom: 10px;
+}
+
+.recent-post-text-images h3 {
+  text-align: center;
+}
+
+.recent-post-image a {
+  font-size: 120%;
+  line-height: 140%;
+  color: black;
+  font-weight: 400;
+}
+
+.recent-post-p {
+  padding-top: 3px;
+}
+
+/*--------- MAIN PAGE RIGHT SIDE---------*/
+
+.sidebar-recent-posts {
+  padding-bottom: 40px;
+  margin-top: 5px;
+}
+
+.sidebar-pics {
+  padding-bottom: 30px;
+}
+
+.sidebar-pics img {
+  padding-right: 15px;
+  float: left;
+}
+
+.sidebar-pics a {
+  color: black;
+  font-size: 100%;
+}
+
+.sidebar-pics p {
+  color: #767b67;
+  font-size: 95%;
+  padding-top: 10px;
+}
+
+.sidebar-categories ul li:nth-child(5),
+.sidebar-pics:nth-child(4) {
+  padding-bottom: 70px;
+}
+
+.sidebar-categories li {
+  list-style: none;
+  padding: 0 0 10px 25px;
+  position: relative;
+}
+
+.sidebar-categories a {
+  color: black;
+}
+
+.sidebar-categories li a::before {
+  position: absolute;
+  content: "";
+  height: 5px;
+  width: 5px;
+  background-color: #767b67;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  top: 5px;
+  left: 0;
+}
+
+.instagram-second-line-pics,
+.instagram-first-line-pics {
+  width: 100%;
+}
+
+.instagram-first-line-pics img,
+.instagram-second-line-pics img {
+  width: 23.33%;
+  padding-left: 2px;
+}
+
+.sidebar-newsletter,
+.sidebar-tags {
+  padding-top: 70px;
+}
+
+.sidebar-tag-first-box {
+  padding-bottom: 20px;
+}
+
+.sidebar-tag-first-box a,
+.sidebar-tag-second-box a {
+  color: black;
+  padding: 8px 12px;
+  margin-right: 10px;
+  background-color: #66666617;
+  border-radius: 5px;
+  line-height: 200%;
+}
+
+.sidebar-email-box {
+  width: 100%;
+  position: relative;
+}
+
+hr {
+  border: none;
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #6666665d;
+}
+
+#sidebar-email {
+  border: none;
+  padding: 0 0 10px 0;
+  width: 100%;
+}
+
+.sidebar-mail-icon {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  color: #666666;
+  cursor: pointer;
+}
