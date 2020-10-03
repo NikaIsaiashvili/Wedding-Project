@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="vendors/normalize.css" />
     <link rel="stylesheet" href="vendors/grid updated.css" />
 
-    <link rel="stylesheet" type="text/css" href="index.css" />
     <link rel="stylesheet" type="text/css" href="services.css" />
     <link rel="stylesheet" type="text/css" href="portfolio.css" />
     <link rel="stylesheet" type="text/css" href="about.css" />
@@ -93,17 +92,58 @@
       ></iframe>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="left-side-box">
-          <h2 class="contact-info-left-head">CONTACT INFO</h2>
-        </div>
+    <section class="section-contact-info">
+      <div class="container">
+        <div class="row mini-container">
+          <div class="left-side-box">
+            <h2 class="contact-head-two-text">CONTACT INFO</h2>
+            <ul class="left-side-ul">
+              <li>
+                <div class="icon-div">
+                  <ion-icon name="call" class="contact-icon"></ion-icon>
+                </div>
+                <div class="text-div">
+                  <span>Support@gmail.com</span>
+                  <p>+ 1 212-683-9756</p>
+                </div>
+              </li>
 
-        <div class="right-side-box">
-          <h2 class="contact-info-right-head">GET IN TOUCH</h2>
+              <li>
+                <div class="icon-div">
+                  <ion-icon name="location" class="contact-icon"></ion-icon>
+                </div>
+                <div class="text-div">
+                  <span>799 W 6th St Hoisington, Kansas 121</span>
+                  <p>Sparrow Hawk, Alberta</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="icon-div">
+                  <ion-icon name="time" class="contact-icon"></ion-icon>
+                </div>
+                <div class="text-div">
+                  <span>Mon - Sat : 8:00am - 5:00pm</span>
+                  <p>Sunday: 8:00am - 7:00pm</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="right-side-box">
+            <h3 class="contact-head-three-text">GET IN TOUCH</h3>
+            <div class="contact-form">
+              <form style="width: 100%">
+                <input type="text" placeholder="Name" class="contact-name" id="contact-form-name" required />
+                <input type="email" placeholder="Email" class="contact-email" id="contact-form-email" required />
+                <textarea placeholder="Your message" class="contact-textarea"></textarea>
+                <button type="submit" class="contact-btn-send" id="contact-btn">Send</button>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
   </body>
