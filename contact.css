@@ -1,7 +1,6 @@
 .map-box {
   width: 95%;
   margin: 0 2.5%;
-  padding-bottom: 5%;
 }
 
 .map-box iframe {
@@ -10,31 +9,83 @@
 }
 
 .left-side-box {
+  width: 43%;
+  margin: 0 auto;
+  padding: 0 1%;
   float: left;
-  width: 40%;
-  padding: 1%;
-  margin: 0 1%;
 }
 
 .right-side-box {
-  width: 55%;
-  padding: 1%;
-  margin: 0 1%;
+  width: 57%;
+  margin: 0 auto;
+  padding: 0 1%;
   float: left;
 }
 
-.contact-info-left-head {
+.contact-head-two-text {
   color: black;
-  padding: 0 0 40px 0;
-  margin: 0;
-  text-align: center;
+  padding-bottom: 80px;
+  font-size: 30px;
   line-height: 140%;
 }
 
-.contact-info-right-head {
+.contact-head-three-text {
   color: black;
-  padding: 0 0 40px 0;
-  margin: 0;
-  text-align: left;
-  line-height: 140%;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 120%;
+  padding-bottom: 80px;
+}
+
+.left-side-ul {
+  display: block;
+}
+
+.left-side-ul li {
+  list-style: none;
+  padding-bottom: 40px;
+  font-size: 110%;
+}
+
+.icon-div {
+  float: left;
+  margin-right: 20px;
+  padding: 0 15px;
+  background-color: #a3a698;
+  border-radius: 50%;
+}
+
+.contact-icon {
+  width: 15px;
+  height: 30px;
+  margin-top: 5px;
+  color: white;
+}
+
+.text-div p {
+  margin-left: 45px;
+}
+
+.contact-textarea {
+  margin-top: 20px;
+  width: 100%;
+}
+
+#contact-form-email,
+#contact-form-name {
+  width: 47%;
+  padding: 13px 0 13px 8px;
+  border: 1px solid rgba(128, 128, 128, 0.288);
+}
+
+#contact-btn {
+  margin-top: 20px;
+  font-size: 110%;
+  padding: 10px 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+#contact-btn:hover {
+  color: #a3a698;
+  background-color: white;
 }
