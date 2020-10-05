@@ -391,6 +391,7 @@ footer .container {
 #footer-email {
   width: 80%;
   height: 47px;
+  margin-top: 30px;
   background-color: #4f5343;
   border: none;
   font-size: 110%;
